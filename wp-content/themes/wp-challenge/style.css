@@ -1,0 +1,113 @@
+/*
+Theme Name: WP Challenge
+Author: Tomás Vilas
+Author URI: http://toansvilas.com.ar
+Version: 1.0.0
+Template: twentyfourteen
+*/
+
+#pager {
+    max-width: 1400px!important;
+}
+
+.movies-section {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.movies-section ul,
+.post-container {
+    width: 30%;
+}
+
+.poster img {
+    max-width: 100%;
+}
+
+.site,
+.site-header {
+    max-width: 100%;
+}
+
+.site::before {
+	z-index: -1;
+}
+
+#main {
+	background: tomato;
+}
+
+.movies-section ul,
+.post-container {
+    width: 30%;
+    padding: 0 15px 25px 15px;
+    background: #eee;
+    border-radius: 10px;
+    margin: 15px 0;
+		background: #000;
+		color: white;
+		box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+	font-weight: bolder;
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 18px 0;
+}
+
+.genre {
+	display: inline-block;
+	margin: 15px 5px 0 5px;
+	padding: 5px 10px;
+	border-radius: 35px;
+	border: 1px solid white;
+	font-size: 13px;
+}
+
+.overview {
+	margin: 10px 10px;
+	font-size: 14px;
+}
+
+.production_companies {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.production_companies img,
+.production_companies p {
+	  max-width: 80px;
+	padding: 5px;
+	margin: 5px;
+    background: white;
+		color: #000;
+		font-size: 12px;
+}
+
+.release_date {
+	margin-top: 15px;	
+}
+
+.release_date,
+.original_language,
+.popularity{
+	text-align: left;
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.production_companies p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
